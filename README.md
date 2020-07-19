@@ -7,7 +7,7 @@ This is currently the first working version of the script and has sitched ~40k M
 
 - It WILL use all of your CPU threads to convert the MP4s to TS files.  I build this for speed, but it could be made to limit the amount of conversions done.
 
-- It's disk space use can be better.  The current use looks like this:  <Orignal Files> -> <Converted TS files> -> <Stitched TS File> -> <Finished MP4>.  Only once the final MP4 is generated do any of the TS files get cleaned up.  Typing this I thought of a solution.  Should be fixed shortly.
+- It's disk space use can be better.  The current use looks like this:  {Orignal Files} -> {Converted TS files} -> {Stitched TS File} -> {Finished MP4}.  Only once the final MP4 is generated do any of the TS files get cleaned up.  Typing this I thought of a solution.  Should be fixed shortly.
  
 - It needs a local log/ and tmp/ directory but does not create or check for them.
  
@@ -31,4 +31,4 @@ If you're like me, you might be on Google searching for the following:
 
 I can't tell you exactly why some of those things happen, but I can tell you I learned it can be a real pain in the ass to figure out.  This script seems to regularly output an MP4 file that's playable and doesn't freeze after the first video in the concat, so I hope it can help some others out.
 
-USAGE: ./mp4-video-stitcher.sh <DIRECTORY WITH SHIT TON OF MP4s> <BIG MP4 DESTINATION>
+USAGE: ./mp4-video-stitcher.sh {DIRECTORY WITH SHIT TON OF MP4s} {BIG MP4 DESTINATION}
