@@ -5,13 +5,13 @@ Originally created in response to having to deal with the MP4 recordings from Un
 
 This is currently the first working version of the script and has sitched ~40k MP4 files stitched together.  I got it to a working state and then uploaded it immediately, as developers do, so there are some quirks:
 
--It WILL use all of your CPU threads to convert the MP4s to TS files.  I build this for speed, but it could be made to limit the amount of conversions done.
+- It WILL use all of your CPU threads to convert the MP4s to TS files.  I build this for speed, but it could be made to limit the amount of conversions done.
 
--It's disk space use can be better.  The current use looks like this:  <Orignal Files> -> <Converted TS files> -> <Stitched TS File> -> <Finished MP4>.  Only once the final MP4 is generated do any of the TS files get cleaned up.  Typing this I thought of a solution.  Should be fixed shortly.
+- It's disk space use can be better.  The current use looks like this:  <Orignal Files> -> <Converted TS files> -> <Stitched TS File> -> <Finished MP4>.  Only once the final MP4 is generated do any of the TS files get cleaned up.  Typing this I thought of a solution.  Should be fixed shortly.
  
--It needs a local log/ and tmp/ directory but does not create or check for them.
+- It needs a local log/ and tmp/ directory but does not create or check for them.
  
--No codec conversion.  Is it even in scope?
+- No codec conversion.  Is it even in scope?
 
 
 If you're like me, you might be on Google searching for the following:
