@@ -1,4 +1,4 @@
-# MP4_Video_Stitcher
+# MP4 Video Stitcher
 A script to help stitch mass amounts of MP4 files together.
 
 Originally created in response to having to deal with the MP4 recordings from Unifi Video, there's no reason it shouldn't work on other folders of MP4 files.  It does sort based on name though, so I'd number files you want to keep in order if they're not already organized.
