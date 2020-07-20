@@ -3,7 +3,7 @@ A script to help stitch mass amounts of MP4 files together.
 
 Originally created in response to having to deal with the MP4 recordings from Unifi Video, there's no reason it shouldn't work on other folders of MP4 files.  It does sort based on name though, so I'd number files you want to keep in order if they're not already organized.
 
-This is currently the first working version of the script and has sitched ~40k MP4 files stitched together.  I got it to a working state and then uploaded it immediately, as developers do, so there are some quirks:
+This is currently the first working version of the script and has sitched ~40k MP4 files together.  I got it to a working state and then uploaded it immediately, as developers do, so there are some quirks:
 
 - It WILL use all of your CPU threads to convert the MP4s to TS files.  I build this for speed, but it could be made to limit the amount of conversions done.
 
